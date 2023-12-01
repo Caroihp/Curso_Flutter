@@ -1,16 +1,26 @@
 # widget1
 
-A new Flutter project.
+# Flutter Custom Widget Example
 
-## Getting Started
+Este es un ejemplo de una aplicación Flutter que muestra un botón elevado (ElevatedButton) y lo configura para realizar una acción simple cuando se presiona.
 
-This project is a starting point for a Flutter application.
+## Funcionalidad
 
-A few resources to get you started if this is your first Flutter project:
+- Muestra un botón elevado (ElevatedButton) en la pantalla.
+- Cuando se presiona el botón, imprime "¡Hola Mundo!" en la terminal.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Cómo Ejecutar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para ejecutar esta aplicación en tu dispositivo local, dirigete a la carpeta lib y en la terminal 
+ejecuta el comando flutter run
+
+### Requisitos Previos
+
+Asegúrate de tener Flutter instalado en tu sistema. Si no lo tienes instalado, puedes seguir las [instrucciones de instalación de Flutter](https://flutter.dev/docs/get-started/install).
+
+### Pasos para Ejecutar
+
+1. Clona este repositorio o descarga el código fuente en tu máquina local.
+
+```bash
+git clone < https://github.com/Caroihp/Curso_Flutter.git >

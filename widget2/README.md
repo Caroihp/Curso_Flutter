@@ -1,16 +1,25 @@
 # widget2
 
-A new Flutter project.
+Este es un ejemplo de una aplicación Flutter que muestra tarjetas (cards) con información de diferentes sedes. Cada tarjeta contiene una imagen, un título y una descripción.
 
-## Getting Started
+## Funcionalidad
 
-This project is a starting point for a Flutter application.
+- Muestra tarjetas con información de diferentes sedes.
+- Cada tarjeta contiene una imagen, un título y una descripción.
+- Hay un botón "Más Información" que no tiene acción definida en el código proporcionado.
 
-A few resources to get you started if this is your first Flutter project:
+## Cómo Ejecutar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para ejecutar esta aplicación en tu dispositivo local, dirigete a la carpeta lib y en la terminal 
+ejecuta el comando flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Requisitos Previos
+
+Asegúrate de tener Flutter instalado en tu sistema. Si no lo tienes instalado, puedes seguir las [instrucciones de instalación de Flutter](https://flutter.dev/docs/get-started/install).
+
+### Pasos para Ejecutar
+
+1. Clona este repositorio o descarga el código fuente en tu máquina local.
+
+```bash
+git clone < https://github.com/Caroihp/Curso_Flutter.git >
