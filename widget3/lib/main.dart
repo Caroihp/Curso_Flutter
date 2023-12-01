@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pokédex',
+      title: 'Pokedex',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -27,13 +27,14 @@ class MyHomePage extends StatelessWidget {
     Pokemon(name: 'Bulbasaur', type: 'Planta', number: 1, imagePath: 'assets/bulbasaur.png'),
     Pokemon(name: 'Charmander', type: 'Fuego', number: 4, imagePath: 'assets/charmander.png'),
     Pokemon(name: 'Squirtle', type: 'Agua', number: 7, imagePath: 'assets/squirtle.png'),
+    Pokemon(name: 'Vulpix', type: 'Fuego', number: 37, imagePath: 'assets/vulpix.png'),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pokédex'),
+        title: const Text('Pokedex'),
       ),
       body: Center(
         child: CarouselSlider.builder(
@@ -82,7 +83,7 @@ class PokemonCard extends StatelessWidget {
           ),
           ListTile(
             title: Text(pokemon.name, style: const TextStyle(fontWeight: FontWeight.bold)),
-            subtitle: Text('Pokédex: ${pokemon.number}'),
+            subtitle: Text('Pokedex: ${pokemon.number}'),
           ),
           Align(
             alignment: Alignment.centerLeft,
