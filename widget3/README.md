@@ -1,16 +1,24 @@
-# widget3
+## widget3
 
-A new Flutter project.
+Esta es una aplicación simple de Pokedex desarrollada en Flutter. Muestra una lista de Pokémones con sus nombres, números y tipos en un carrusel deslizante.
 
-## Getting Started
+## Funcionalidad
 
-This project is a starting point for a Flutter application.
+- Muestra una lista de Pokémones en un carrusel deslizante.
+- Cada Pokémon se muestra en una tarjeta con su imagen, nombre, número y tipo.
+- Los tipos de Pokémon se representan con colores diferentes en la tarjeta.
 
-A few resources to get you started if this is your first Flutter project:
+## Cómo Ejecutar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para ejecutar esta aplicación en tu dispositivo local, dirigete a la carpeta lib y en la terminal 
+ejecuta el comando flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Requisitos Previos
+
+Asegúrate de tener Flutter instalado en tu sistema. Si no lo tienes instalado, puedes seguir las [instrucciones de instalación de Flutter](https://flutter.dev/docs/get-started/install).
+
+### Pasos para Ejecutar
+
+1. Clona este repositorio o descarga el código fuente en tu máquina local.
+
+git clone < https://github.com/Caroihp/Curso_Flutter.git >
