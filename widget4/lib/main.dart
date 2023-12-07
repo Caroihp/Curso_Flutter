@@ -9,10 +9,10 @@ class MiApp extends StatefulWidget {
   const MiApp({super.key});
 
   @override
-  _MiAppState createState() => _MiAppState();
+  MiAppState createState() => MiAppState();
 }
 
-class _MiAppState extends State<MiApp> {
+class MiAppState extends State<MiApp> {
   int _currentIndex = 0;
   final List<String> imgList = [
     'assets/Bulbasaur.png',
