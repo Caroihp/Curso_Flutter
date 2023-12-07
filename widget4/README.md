@@ -1,16 +1,27 @@
 # widget4
 
-A new Flutter project.
+Esta aplicación Flutter demuestra el uso de un carrusel de imágenes y una interfaz de perfil de usuario con un botón. La aplicación consta de dos pestañas principales: una para el carrusel de imágenes y otra para mostrar una imagen de perfil con un botón de acción.
 
-## Getting Started
+## Funcionalidad
 
-This project is a starting point for a Flutter application.
+- La primera pestaña muestra un carrusel de imágenes.
+- Las imágenes se cargan desde los recursos locales de la aplicación (assets).
+- El carrusel cambia automáticamente las imágenes, con un efecto de ampliación en la imagen central.
+- La segunda pestaña muestra un avatar circular y un botón de 'Editar Perfil'.
+- El avatar utiliza una imagen localizada en assets/Perfil.jpg.
+- Al presionar el botón, se puede ejecutar una acción definida por el desarrollador (actualmente no        implementada).
 
-A few resources to get you started if this is your first Flutter project:
+## Cómo Ejecutar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para ejecutar esta aplicación en tu dispositivo local, dirigete a la carpeta lib y en la terminal 
+ejecuta el comando flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Requisitos Previos
+
+Asegúrate de tener Flutter instalado en tu sistema. Si no lo tienes instalado, puedes seguir las [instrucciones de instalación de Flutter](https://flutter.dev/docs/get-started/install).
+
+### Pasos para Ejecutar
+
+1. Clona este repositorio o descarga el código fuente en tu máquina local.
+
+git clone < https://github.com/Caroihp/Curso_Flutter.git >
